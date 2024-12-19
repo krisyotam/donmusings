@@ -1,0 +1,92 @@
+/* General styles for the quote page */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Quote container styles */
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    padding: 20px;
+}
+
+/* Quote box for visual emphasis */
+.quote-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+/* Left pipe "|" styling */
+.quote-left {
+    color: #a0a0a0;
+    font-size: 48px;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 1.2;
+}
+
+/* Quote text styling */
+.quote-text {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: #e0e0e0;
+    margin: 0;
+}
+
+/* Author styling */
+.quote-author {
+    color: #a0a0a0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* Pagination buttons container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between buttons */
+    margin-top: 40px;
+}
+
+/* Pagination buttons */
+.pagination-button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+
+.pagination-button:hover {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.pagination-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

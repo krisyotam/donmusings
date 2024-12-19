@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Page</title>
+    <link rel="stylesheet" href="/pages/css/quotes.css">
+</head>
+<body>
+    <div class="quote-container">
+        <div class="quote-box">
+            <div class="quote-left">|</div>
+            <p class="quote-text" id="quote-text">"The journey of faith is never-ending."</p>
+        </div>
+        <div class="quote-author" id="quote-author">- Sir Don Lamar</div>
+    </div>
+
+    <div class="pagination">
+        <button id="prev-quote" class="pagination-button" onclick="changeQuote(-1)">Previous</button>
+        <button id="next-quote" class="pagination-button" onclick="changeQuote(1)">Next</button>
+    </div>
+
+    <script src="quote.js"></script>
+</body>
+</html>

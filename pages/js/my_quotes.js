@@ -23,7 +23,7 @@ function updatePagination() {
         const quoteElement = document.createElement('div');
         quoteElement.classList.add('project');
         quoteElement.innerHTML = `
-            <div class="project-title">${quote.quote}</div>
+            <a href="${quote.link}" class="project-title" target="_blank">${quote.quote}</a>
             <p class="project-description">${quote.description}</p>
         `;
         quotesContainer.appendChild(quoteElement);
