@@ -1,0 +1,1 @@
+const itemsPerPage = 3;

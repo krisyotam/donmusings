@@ -1,0 +1,90 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+p {
+    color: #a0a0a0;
+    margin-bottom: 48px;
+}
+
+section {
+    margin-bottom: 64px;
+}
+
+.project {
+    margin-bottom: 32px;
+}
+
+.project-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #ffffff;
+}
+
+.project-description {
+    color: #a0a0a0;
+    margin: 0;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.date {
+    color: #888888;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.project-link {
+    color: inherit; /* Inherits the color from the parent, which is white */
+    text-decoration: none; /* Removes the default underline */
+}
+
+.project-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
